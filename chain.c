@@ -1,5 +1,5 @@
 /* processing works in chain */
-char *packets[] = {"emoclew", "otomom", "okok", "maet ruo", 0}
+char *packets[] = {"emoclew", "omom", "ot", "okok", "maet ruo", 0}
 
 typedef int (*filter)(char **pkt); // -1 exit, 0 ok, 1 drop 
 
